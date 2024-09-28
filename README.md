@@ -19,7 +19,7 @@ for other subjects.
 
 Some features:
 - I spent multiple hours figuring out how to center cards in Anki, so you don't
-  have to (the magic is in finding the `.card > div` selector)
+  have to! (The magic is in finding the `.card > div` selector)
 - All colors are variables, so swapping color schemes is easy
 - Behaves consistently in both dark and light mode
 - Looks fine on mobile
