@@ -39,3 +39,17 @@
 
   --edge: color-mix(in srgb, var(--divider), transparent 70%);
 }
+
+/* ----------
+ tokyo night
+-----------*/
+:root {
+  --text: #c0caf5;
+  --bg-front: #24283b;
+  --bg-back: #1a1b26;
+  --accent: #f7768e;
+  --en-text: #a9b1d6;
+  --divider: #9aa5ce;
+
+  --edge: color-mix(in srgb, var(--divider), transparent 70%);
+}
