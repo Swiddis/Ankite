@@ -1,0 +1,41 @@
+/* ---------
+ catppuccin
+--------- */
+:root {
+  --text: #cad3f5;
+  --bg-front: #24273a;
+  --bg-back: #181926;
+  --accent: #81c8be;
+  --en-text: #8087a2;
+  --divider: #6e738d;
+
+  --edge: color-mix(in srgb, var(--divider), transparent 70%);
+}
+
+/* ------
+ gruvbox
+------ */
+:root {
+  --text: #ebdbb2;
+  --bg-front: #32302f;
+  --bg-back: #1d2021;
+  --accent: #fb4934;
+  --en-text: #bdae93;
+  --divider: #a89984;
+
+  --edge: color-mix(in srgb, var(--divider), transparent 70%);
+}
+
+/* ---------
+ everforest
+--------- */
+:root {
+  --text: #5c6a72;
+  --bg-front: #fdf6e3;
+  --bg-back: #efebd4;
+  --accent: #f57d26;
+  --en-text: #708089;
+  --divider: #829181;
+
+  --edge: color-mix(in srgb, var(--divider), transparent 70%);
+}

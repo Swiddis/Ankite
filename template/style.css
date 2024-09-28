@@ -1,0 +1,118 @@
+:root {
+  /* For more color schems check color_schemes.css */
+  --text: #cad3f5;
+  --bg-front: #24273a;
+  --bg-back: #181926;
+  --accent: #81c8be;
+  --en-text: #8087a2;
+  --divider: #6e738d;
+
+  --edge: color-mix(in srgb, var(--divider), transparent 70%);
+}
+
+@font-face {
+  font-family: literata;
+  src: url("_Literata-VariableFont_opsz,wght.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: literata;
+  src: url("_Literata-Italic-VariableFont_opsz,wght.ttf");
+  font-style: italic;
+}
+
+html {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card,
+.card.nightMode {
+  flex-grow: 1;
+
+  font-family: "literata", serif;
+  font-weight: 300;
+  font-size: 34px;
+  text-align: center;
+  color: var(--text);
+
+  display: flex;
+}
+
+.mobile .card,
+.mobile .card.nightMode {
+  background-color: var(--bg-back);
+  font-size: 28px;
+}
+
+.mobile #content {
+  border-radius: 0;
+  border: none;
+  height: 100%;
+  max-width: none;
+  background-color: var(--bg-back);
+}
+
+.card > div,
+.card.nightMode > div {
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#content {
+  border-radius: 30px;
+  box-shadow: 0 6px 45px rgba(0, 0, 0, 0.4);
+  border: 2px solid var(--edge);
+  overflow: hidden;
+
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.top {
+  background-color: var(--bg-front);
+  padding: 30px;
+}
+
+.bottom {
+  background-color: var(--bg-back);
+  padding: 30px;
+}
+
+.small {
+  font-size: 20px;
+  color: var(--en-text);
+}
+
+.medium {
+  font-size: 27px;
+}
+
+.sz {
+  color: var(--en-text);
+  font-size: 20px;
+}
+
+em,
+strong,
+b {
+  font-style: italic;
+  font-weight: 300;
+  color: var(--accent);
+}
+
+.hidden {
+  display: none;
+}
+
+hr {
+  height: 2px;
+  background-color: var(--divider);
+  border: none;
+}
