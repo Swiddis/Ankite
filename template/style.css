@@ -53,6 +53,7 @@ html {
   height: 100%;
   max-width: none;
   background-color: var(--bg-back);
+  box-shadow: none;
 }
 
 .card > div,
